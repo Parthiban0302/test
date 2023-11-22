@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Parthiban0302_test_1700634084136-push-trigger-input-set
+  identifier: Build_Parthiban0302_test_1700634084136pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test
+  pipeline:
+    identifier: Build_Parthiban0302_test_1700634084136
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

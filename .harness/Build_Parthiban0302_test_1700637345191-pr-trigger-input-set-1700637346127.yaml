@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Parthiban0302_test_1700637345191-pr-trigger-input-set
+  identifier: Build_Parthiban0302_test_1700637345191prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: test
+  pipeline:
+    identifier: Build_Parthiban0302_test_1700637345191
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
